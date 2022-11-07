@@ -1,6 +1,6 @@
 
 
-Samba is an open source implementation of the Server Message Block (SMB) protocol. It allows the networking of Windows, [[storage]], UNIX, and other operating systems together, enabling access to Windows-based file and printer shares. Samba's use of SMB allows it to appear as a Windows server to Windows clients.
+Samba is an open source implementation of the Server Message Block (SMB) protocol. It allows the networking of Windows, [[filesystem]], UNIX, and other operating systems together, enabling access to Windows-based file and printer shares. Samba's use of SMB allows it to appear as a Windows server to Windows clients.
 
 ## Samba Daemon and related services
 

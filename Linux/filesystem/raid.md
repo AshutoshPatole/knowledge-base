@@ -1,4 +1,4 @@
-[[storage]]
+[[filesystem]]
 
 The basic idea behind RAID is to combine multiple small, inexpensive disk drives into an array to accomplish performance or redundancy goals not attainable with one large and expensive drive. This array of drives appears to the computer as a single logical storage unit or drive.
 
