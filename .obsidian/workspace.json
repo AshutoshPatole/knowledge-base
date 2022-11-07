@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "129b1008b28efc3d",
+            "id": "9133a0249166d817",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -128,11 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "129b1008b28efc3d",
+  "active": "9133a0249166d817",
   "lastOpenFiles": [
-    "Linux/Commands/grep.md",
-    "Linux/Commands/awk.md",
-    "Linux/Commands/sed.md",
-    "linux.md"
+    "Kubernetes/kind.md",
+    "Kubernetes/kubectl.md",
+    "Linux/commands/strict mode shell.md",
+    "Linux/commands/specials in shell.md",
+    "Linux/storage/samba.md",
+    "Linux/commands/test condition in shell.md",
+    "Linux/commands/user.md",
+    "Linux/commands/ssh in script.md",
+    "Linux/storage/raid.md",
+    "Linux/commands/shell tricks.md"
   ]
 }
