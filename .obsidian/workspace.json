@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ddd9811cff8b00d7",
+  "active": "56dbfc924664bcff",
   "lastOpenFiles": [
-    "Linux/filesystem/partitioning.md",
-    "Linux/Linux.md",
-    "Linux/filesystem/create filesystem.md",
-    "Linux/filesystem/samba.md",
-    "Linux/filesystem/swap space.md",
-    "Linux/filesystem/filesystem.md",
-    "Linux/filesystem/journal.md",
-    "Linux/storage/Untitled.md",
-    "Linux/commands/cat.md",
-    "Linux/commands/systemctl.md"
+    "Kubernetes/kubernetes.md",
+    "Kubernetes/kubectl.md",
+    "Kubernetes/kubernetes-dns.md",
+    "Kubernetes/k3s.md",
+    "Kubernetes/k3s-install-single.md",
+    "Kubernetes/k3s-install-ha-externaldb.md",
+    "Kubernetes/k3s-install-ha-embeddeddb.md",
+    "Kubernetes/kind.md",
+    "Kubernetes/Untitled.md",
+    "Linux/commands/command.md"
   ]
 }

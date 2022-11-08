@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "linux",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "storage",
+      "query": "kubernetes",
       "color": {
         "a": 1,
         "rgb": 2922757
@@ -27,11 +27,11 @@
   "textFadeMultiplier": -1.2,
   "nodeSizeMultiplier": 1.06979166666667,
   "lineSizeMultiplier": 0.7890625,
-  "collapse-forces": false,
-  "centerStrength": 0.135416666666667,
-  "repelStrength": 10.7291666666667,
-  "linkStrength": 0.25,
-  "linkDistance": 209,
-  "scale": 0.7132754626224509,
+  "collapse-forces": true,
+  "centerStrength": 0.244791666666667,
+  "repelStrength": 8.54166666666667,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.3628873693012191,
   "close": true
 }
