@@ -1,0 +1,11 @@
+
+The control plane, which is composed of control plane machines (also known as the master machines), manages the OpenShift Container Platform cluster. The control plane machines manage workloads on the compute machines, which are also known as worker machines. The cluster itself manages all upgrades to the machines by the actions of the Cluster Version Operator, the Machine Config Operator, and a set of individual Operators.
+
+## Node configuration management with machine config pools
+Machines that run control plane components or user workloads are divided into groups based on the types of resources they handle. These groups of machines are called machine config pools (MCP). Each MCP manages a set of nodes and its corresponding machine configs. The role of the node determines which MCP it belongs to; the MCP governs nodes based on its assigned node role label. Nodes in an MCP have the same configuration; this means nodes can be scaled up and torn down in response to increased or decreased workloads.
+
+By default, there are two MCPs created by the cluster when it is installed: **master** and __worker__. Each default MCP has a defined configuration applied by the Machine Config Operator (MCO), which is responsible for managing MCPs and facilitating MCP upgrades. You can create additional MCPs, or custom pools, to manage nodes that have custom use cases that extend outside of the default node types.
+
+It is recommended to have a custom pool for every node role you want to manage in your cluster. For example, if you create infra nodes to handle infra workloads, it is recommended to create a custom infra MCP to group those nodes together. If you apply an infra role label to a worker node so it has the worker,infra dual label, but do not have a custom infra MCP, the MCO considers it a worker node. If you remove the worker label from a node and apply the infra label without grouping it in a custom pool, the node is not recognized by the MCO and is unmanaged by the cluster.
+
+The [[machine config operator]] applies updates for pools independently; for example, if there is an update that affects all pools, nodes from each pool update in parallel with each other. If you add a custom pool, nodes from that pool also attempt to update concurrently with the master and worker nodes.

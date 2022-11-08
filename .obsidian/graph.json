@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "linux",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "kubernetes",
+      "query": "openshift",
       "color": {
         "a": 1,
         "rgb": 2922757
@@ -28,10 +28,10 @@
   "nodeSizeMultiplier": 1.06979166666667,
   "lineSizeMultiplier": 0.7890625,
   "collapse-forces": true,
-  "centerStrength": 0.244791666666667,
+  "centerStrength": 0.421875,
   "repelStrength": 8.54166666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.3628873693012191,
+  "scale": 0.713275462622464,
   "close": true
 }
