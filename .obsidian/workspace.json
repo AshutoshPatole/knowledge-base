@@ -11,8 +11,12 @@
             "id": "ddd9811cff8b00d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "openshift/openshift.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "openshift/openshift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "openshift/openshift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "openshift/openshift.md"
+              }
             }
           }
         ]
@@ -128,10 +136,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "56dbfc924664bcff",
+  "active": "ddd9811cff8b00d7",
   "lastOpenFiles": [
-    "Kubernetes/kubernetes.md",
     "Kubernetes/kubectl.md",
+    "Kubernetes/kubernetes.md",
     "Kubernetes/kubernetes-dns.md",
     "Kubernetes/k3s.md",
     "Kubernetes/k3s-install-single.md",
